@@ -46,7 +46,7 @@ export default function Home() {
           <div className="text-center mb-8">
             <div className="text-1xl font-semibold text-gray-800">Invite ou cherche tes amis</div>
             <p className="text-sm text-gray-500">
-              Tu n'as pas encore ajouter tes amis
+              Tu n&apos;as pas encore ajouter tes amis
             </p>
           </div>
 
