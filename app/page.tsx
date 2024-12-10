@@ -82,7 +82,7 @@ export default function Home() {
                       <div className="text-sm text-gray-500">{member.role}</div>
                     </div>
                   </div>
-                  <button className="flex items-center text-sm text-blue-600 hover:text-blue-700">
+                  <button className="flex items-center text-sm text-mygreenblue hover:text-blue-700">
                     <Plus className="w-4 h-4 mr-2" /> Inviter
                   </button>
                 </li>
