@@ -70,3 +70,15 @@ body {
     @apply bg-background text-foreground;
   }
 }
+@keyframes slow-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-slow-spin {
+  animation: slow-spin 5s linear infinite; /* La durée de 5s ralentit la rotation */
+}
