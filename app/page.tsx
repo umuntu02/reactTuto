@@ -24,7 +24,7 @@ export default function Home() {
     },
   ];
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen pb-15 gap-16 sm:p-12 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <div className="flex items-center justify-center">
           <div className="text-center bg-white p-5 rounded-xl w-full">
@@ -34,8 +34,8 @@ export default function Home() {
                 <Plus className="w-6 h-6 text-gray-600" />
               </div>
             </div>
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">No projects</h2>
-            <p className="text-sm text-gray-500 mb-6">Get started by creating a new project.</p>
+            <h2 className="text-lg font-semibold text-gray-800 mb-2">Pas de Mission</h2>
+            <p className="text-sm text-gray-500 mb-6">Commence en publiant une nouvelle mission</p>
             <button className="mt-4 py-2 px-6 bg-mygreenblue text-white text-sm rounded-full hover:bg-white hover:text-mygreenblue transition-all">
               + Nouvelle Mission
             </button>
@@ -43,10 +43,9 @@ export default function Home() {
         </div>
         <div className="max-w-2xl mx-auto p-4">
           <div className="text-center mb-8">
-            <div className="text-1xl font-semibold text-gray-800">Add team members</div>
+            <div className="text-1xl font-semibold text-gray-800">Invite ou cherche tes amis</div>
             <p className="text-sm text-gray-500">
-              You haven’t added any team members to your project yet. As the owner of
-              this project, you can manage team member permissions.
+              Tu n'as pas encore ajouter tes amis
             </p>
           </div>
 
@@ -59,13 +58,13 @@ export default function Home() {
               placeholder="Enter an email"
               className="flex-1 px-4 py-2 border rounded-md text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
-            <button className="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
-              Send invite
+            <button className="px-6 py-2 bg-mygreenblue text-white rounded-md hover:bg-white hover:text-mygreenblue">
+              Inviter
             </button>
           </div>
 
           <div>
-            <p className="font-medium text-gray-800">Team members previously added to projects</p>
+            <p className="font-medium text-gray-800">Amis qui sont dans ta localité et que tu connais peut-être</p>
             <ul className="mt-4 space-y-4">
               {teamMembers.map((member) => (
                 <li key={member.name} className="flex items-center justify-between p-4 border-b">
@@ -81,7 +80,7 @@ export default function Home() {
                     </div>
                   </div>
                   <button className="flex items-center text-sm text-blue-600 hover:text-blue-700">
-                    <Plus className="w-4 h-4 mr-2" /> Invite
+                    <Plus className="w-4 h-4 mr-2" /> Inviter
                   </button>
                 </li>
               ))}
@@ -90,51 +89,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+        <div className="text-sm font-small text-gray-800">Powered by devlin_corp</div>
       </footer>
     </div>
   );
