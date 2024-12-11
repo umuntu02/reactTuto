@@ -1,6 +1,7 @@
 import React from "react"
 import Sidebar from "@/components/Sidebar"
 import Image from "next/image";
+import MobileNav from "@/components/MobileNav";
 
 export default function RootLayout({
     children,
@@ -20,16 +21,16 @@ export default function RootLayout({
                     width={30}
                     height={30}
                     alt="menu icon"
-                    
+
                 />
                 <div>
-
+                    <MobileNav user = {loggedIn} />
                 </div>
             </div>
+            
+            {children}
         </div>
         
-
-        {children}
     </main>
   );
 }
