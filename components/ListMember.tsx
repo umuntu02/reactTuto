@@ -24,12 +24,12 @@ const ListMember = () => {
         <ul className="mt-4 space-y-4">
             {teamMembers.map((member) => (
                 <li key={member.name} className="flex items-center justify-between py-4 border-b">
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center space-x-3">
                         <Image
                             src={member.avatar} // Remplace 'member.avatar' par le bon chemin de l'image
                             alt={member.name}
-                            width={70}
-                            height={70}
+                            width={60}
+                            height={60}
                             className='size-[70px]
                                         max-xl:size-1200
                                         rounded-full 
