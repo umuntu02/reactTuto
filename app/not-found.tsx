@@ -25,7 +25,7 @@ export default function Example() {
                             <div
                                 className="rounded-md bg-mygreenblue px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
-                                Revenir page d'accueil
+                                Revenir page d&apos;accueil
                             </div>
                         </Link>
                     </div>
