@@ -23,21 +23,21 @@ const ListMember = () => {
     return (
         <ul className="mt-4 space-y-4">
             {teamMembers.map((member) => (
-                <li key={member.name} className="flex items-center justify-between py-4 border-b">
+                <li key={member.name} className="flex items-center justify-between py-2 border-b">
                     <div className="flex items-center space-x-3">
                         <Image
                             src={member.avatar} // Remplace 'member.avatar' par le bon chemin de l'image
                             alt={member.name}
                             width={60}
                             height={60}
-                            className='size-[70px]
+                            className='size-[60px]
                                         max-xl:size-1200
                                         rounded-full 
                                         object-cover 
                                         object-center'/>
 
                         <div>
-                            <div className="font-semibold text-gray-800">{member.name}</div>
+                            <div className="font-semibold text-16 text-gray-700">{member.name}</div>
                             <div className="text-sm text-gray-500">{member.role}</div>
                         </div>
                     </div>
