@@ -30,7 +30,7 @@ export default function Home() {
                     subtext="Publie ta première mission et invite tes amis"
                 />
 
-                <div className="max-w-2xl mx-auto w-full">
+                <div className="max-w-2xl mx-auto w-full min-h-[50vh]">
                     <div className="text-center">
                         <h2 className="header-2 m-3">
                             Invite ou cherche tes amis
