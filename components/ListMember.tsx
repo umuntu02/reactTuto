@@ -21,7 +21,7 @@ const ListMember = () => {
         },
     ];
     return (
-        <ul className="mt-6 mb-[6em]">
+        <ul className="mt-6 ">
             {teamMembers.map((member) => (
                 <li key={member.name} className="flex items-center justify-between py-2 border-b">
                     <div className="flex items-center space-x-3">

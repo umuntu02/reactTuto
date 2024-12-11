@@ -35,19 +35,19 @@ const MobileNav = ({ user }: MobileNavProps) => {
                     <Link href="/" className='flex px-4 cursor-pointer items-center gap-1'>
                         <Image
                             src="/shakemLogo.svg"
-                            width={34}
-                            height={34}
+                            width={50}
+                            height={50}
                             alt='SHAKEM LOGO'
                         />
-                        <SheetTitle className='text-26 font-ibm-plex-serif font-bold text-[#099]'>
-                            SHAKEM
+                        <SheetTitle >
+                            <span className='text-26 font-ibm-plex-serif font-bold text-[#099]'>SHAKEM</span>
                         </SheetTitle>
                         <SheetDescription>
                         </SheetDescription>
                     </Link>
                     <div className="mobilenav-sheet">
                         <SheetClose asChild>
-                            <nav className="flex h-full flex-col gap-2 pt-8 text-white">
+                            <nav className="flex h-full flex-col gap-2 pt-7 text-white">
                                 {sidebarLinks.map((item) => {
 
                                     const isActive = pathname === item.route || pathname.startsWith(`${item.route}/`)
