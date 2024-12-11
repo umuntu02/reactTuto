@@ -24,6 +24,7 @@ export default function Home() {
                         Publie et reçois des missions de tes amis "
                     />
                 </header>
+                
                 <AddMission
                     title="Pas de Mission"
                     subtext="Publie ta première mission et invite tes amis"
