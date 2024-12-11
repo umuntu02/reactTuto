@@ -26,20 +26,10 @@ declare type SearchParamProps = {
   };
   
   declare type User = {
-    $id: string;
-    email: string;
-    userId: string;
-    dwollaCustomerUrl: string;
-    dwollaCustomerId: string;
     prenom: string;
     nom: string;
-    name: string;
-    address1: string;
-    city: string;
-    state: string;
-    postalCode: string;
-    dateOfBirth: string;
-    ssn: string;
+    /* regarde dans note pour les parametre de user completes */
+
   };
   
   declare type NewUserParams = {
