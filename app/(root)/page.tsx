@@ -24,18 +24,18 @@ export default function Home() {
                         Publie et reçois des missions de tes amis "
                     />
                 </header>
-                
+
                 <AddMission
                     title="Pas de Mission"
                     subtext="Publie ta première mission et invite tes amis"
                 />
 
                 <div className="max-w-2xl mx-auto w-full">
-                    <div className="text-center m-8">
+                    <div className="text-center">
                         <h2 className="header-2 m-3">
                             Invite ou cherche tes amis
                         </h2>
-                        <p className="text-sm text-gray-500">
+                        <p className="text-sm text-gray-500 m-4">
                             Tu n&apos;as pas encore ajouter tes amis
                         </p>
                     </div>

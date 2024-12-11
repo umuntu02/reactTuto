@@ -23,7 +23,7 @@ const ListMember = () => {
   return (
     <ul className="mt-4 space-y-4">
                             {teamMembers.map((member) => (
-                                <li key={member.name} className="flex items-center justify-between p-4 border-b">
+                                <li key={member.name} className="flex items-center justify-between py-4 border-b">
                                     <div className="flex items-center space-x-4">
                                         <Image
                                             src={member.avatar} // Remplace 'member.avatar' par le bon chemin de l'image
