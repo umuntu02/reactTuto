@@ -12,7 +12,7 @@ export default function Example() {
                         Ouups !
                     </h1>
                     <p className="mt-6 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                        Cette Page est en maintenance
+                        Cette Page est en maintenance ...
                     </p>
 
                     <div className="p-8 flex items-center justify-center">
