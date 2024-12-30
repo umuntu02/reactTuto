@@ -28,8 +28,8 @@ const ListMember = () => {
                         <Image
                             src={member.avatar} // Remplace 'member.avatar' par le bon chemin de l'image
                             alt={member.name}
-                            width={50}
-                            height={50}
+                            width={55}
+                            height={55}
                             className='size-[50px]
                                         max-xl:size-1200
                                         rounded-full 
