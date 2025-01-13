@@ -328,3 +328,16 @@ declare type SearchParamProps = {
   declare interface getBankByAccountIdProps {
     accountId: string;
   }
+
+
+
+// Interface pour un Slide
+declare interface Slide {
+  image: string;
+  title: string;
+}
+
+// Interface pour le composant Carousel
+declare interface CarouselProps {
+  slides: Slide[];
+}
