@@ -36,7 +36,7 @@ export default function Home() {
                             Invite ou cherche tes amis
                         </h2>
                         <p className="text-sm text-gray-500 m-4">
-                            Tu n&apos;as pas encore ajouter tes amis
+                            Tu n&apos;as pas encore ajouter tes contacts 
                         </p>
                     </div>
                     <FriendSearch />
